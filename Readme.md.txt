@@ -8,7 +8,7 @@ The application does not have a developed FrontEnd. My knowledge in FrontEnd is 
 # Projects
 **Vendon.Core.Application** is a class library that makes it easy to instantiate the Tests service in either an MVC application or a Rest application. In this library are defines Services, Mappers, Exceptions and Messages receives an sended to BackEnd.
 
-**Vendon.Core.Test.WebApi** is an ApiRest WebApp with swagger to interact with backend. To run the application you simply  open the solution  called and run the application. A swagger screen will be generated in the browser to be able to execute the different endpoints. 
+**Vendon.Core.Test.WebApi** is an ApiRest WebApp with swagger,it is the application that does the BackEnd. To run the application you simply  open the solution  called Vendon.Core.ManageTests , set this project as Start Solution and run the application. A swagger screen will be generated in the browser to be able to execute the different endpoints. 
 
 	  EndPoints:
  - /Tests/GetAllTestsDefinition 
